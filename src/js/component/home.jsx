@@ -12,11 +12,11 @@ function Cimiento(){
 			<Navbar/>
 		</div>
 		
-		<div>
+		<div className="container-fluid p-2">
 			<Jumbotron/>
 		</div>
 
-		<div className="container-fluid">		
+		<div className="container-fluid p-2">		
 			<div className="row row-cols-2 row-cols-lg-5 g-4 g-lg-4 p-3 justify-content-center">
 				<Card/>
 				<Card/>

@@ -15,15 +15,19 @@ function Cimiento(){
 		<div>
 			<Jumbotron/>
 		</div>
-		
-		<div className="row p-3">
-			<Card/>
-			<Card/>
-			<Card/>
-			<Card/>
+
+		<div className="container-fluid">		
+			<div className="row row-cols-2 row-cols-lg-5 g-4 g-lg-4 p-3 justify-content-center">
+				<Card/>
+				<Card/>
+				<Card/>
+				<Card/>
+			</div>
 		</div>
 
-		<div><Footer/> </div>
+		<div>
+			<Footer/> 
+		</div>
 	</div>)
 }
 
